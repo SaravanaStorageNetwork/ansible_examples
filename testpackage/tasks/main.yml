@@ -1,0 +1,5 @@
+---
+- name: check package
+  yum: 
+    name: python-pep8 
+    state: present

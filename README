@@ -1,0 +1,1 @@
+ansible-playbook -i $PWD/hosts  $PWD/test.yml

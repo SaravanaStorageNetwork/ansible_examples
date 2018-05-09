@@ -1,0 +1,6 @@
+---
+- name: Ensure python-pep8 is installed
+  gather_facts: no
+  hosts: server
+  roles:
+    - testpackage
